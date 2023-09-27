@@ -1,0 +1,572 @@
+/* geral */
+
+html {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.back {
+    background-color: #efefde;
+}
+
+
+
+body {
+
+    background-size: cover;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+p,
+span {
+    margin: 0;
+}
+
+
+/* header */
+
+/* navbar */
+nav {
+    position: fixed;
+    top: 0;
+    height: 1px;
+    width: 100%;
+    z-index: 1;
+    border-bottom: 1px solid;
+}
+
+nav:after {
+    clear: both;
+    content: "";
+    display: block;
+}
+
+
+
+#logo {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    margin-left: 75%;
+}
+
+.nav-container {
+    background-color: #FFB617;
+}
+
+
+/*menu*/
+
+
+header {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    margin-left: 0%;
+}
+
+/* menu ul*/
+#menu {
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+#caju {
+    max-width: 150px;
+    height: 100px;
+}
+
+/* menu li*/
+#menu {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* menu li*/
+#menu a:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+    color: black;
+}
+
+/* menu li*/
+#menu a {
+    text-decoration: none;
+    padding: 16px;
+    color: black;
+    font-weight: bold;
+}
+
+#video {
+    height: 520px;
+    width: 100%;
+    position: relative;
+    top: 5px;
+    margin-top: 5px;
+}
+
+.divisao {
+    background-color: #efefde;
+}
+
+/* quem somos*/
+
+.quadrado {
+    width: 412px;
+    height: 162px;
+    padding: auto;
+    margin-top: 15px;
+    box-shadow: 6px 6px #888;
+}
+
+.alinha {
+    text-align: justify;
+    line-height: 150px;
+    text-indent: 30px;
+}
+
+.alinha {
+    color: #582f0e;
+    font-weight: bold;
+}
+
+
+h2 {
+    font-family: 'Lobster Two', cursive;
+}
+
+.texto {
+    margin-left: 250px;
+    margin-top: 25px;
+    text-indent: 15px;
+    text-align: justify;
+    position: relative;
+}
+
+#cadeiraquem {
+    width: 450px;
+    padding: auto;
+    border-radius: 20px;
+    position: relative;
+    left: 150px;
+    margin-top: -150px;
+}
+
+#cadeiraquem {
+    box-shadow: -40px 59px 0px 0px #FFB617;
+}
+
+.texto {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+}
+
+/* botão Saiba mais*/
+
+
+#seta {
+    width: 10%;
+    padding: auto;
+}
+
+#abrir {
+    width: 110px;
+    left: 250px;
+    top: 10px;
+    position: relative;
+}
+
+#abrir {
+    padding: .6rem .1.6rem;
+    background-color: #FFB617;
+    color: black;
+    border-radius: .25rem;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+#open-modal {
+    background-color: #FFB617;
+}
+
+#fade,
+#modal {
+    transform: .5s;
+    opacity: 1;
+    pointer-events: all;
+}
+
+#fade {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    z-index: 5;
+}
+
+#modal {
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 10;
+    background-color: #fff;
+    width: 500px;
+    max-width: 90%;
+    border-radius: 0.5rem;
+    padding: 1.2rem;
+}
+
+.modal-cabeca {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid #ccc;
+    margin-bottom: 1rem;
+    padding-bottom: 1rem;
+}
+
+
+#close {
+    width: 6rem;
+    text-decoration: none;
+    border: none;
+    border-radius: 0.5rem;
+    background-color: #F26B6B;
+    color: #fff
+}
+
+.modal-corpo p {
+    margin-bottom: 1rem;
+
+}
+
+#modal.esconder,
+#fade.esconder {
+    opacity: 0;
+    pointer-events: none;
+}
+
+
+.alinha2 {
+    color: #582f0e;
+    font-weight: bold;
+    font-size: 50px;
+
+}
+
+.alinha2 {
+    margin-top: 200px;
+    margin-left: 50%;
+
+}
+
+.baixo {
+    margin-top: 50px;
+}
+
+.linha {
+    border-bottom: 2px solid #efefde;
+    margin-bottom: 1rem;
+    padding-bottom: 10px;
+    width: 200px;
+}
+
+.carousel-inner {
+    border-radius: 62px;
+    width: 440px;
+    height: 470px;
+}
+
+/*footer*/
+
+.divisão {
+    border-bottom: 20px solid #efefde;
+    margin-bottom: 1rem;
+}
+
+#caj {
+    width: 250px;
+    left: 50%;
+    top: 50%;
+}
+
+#linkfooter {
+    list-style: none;
+    align-items: center;
+    font-weight: bold;
+}
+
+#linkfooter a {
+    text-decoration: none;
+    padding: 25px;
+    color: black;
+}
+
+#linkfooter {
+    line-height: 50px;
+
+}
+
+
+
+#linkfooter {
+    margin-top: 50px;
+    margin-inline: 150px;
+}
+
+.tele {
+    width: 25px;
+}
+
+.sacola {
+    width: 30px;
+}
+
+.cadeirap {
+    width: 35px;
+}
+
+
+/*Fale Conosco*/
+
+form {
+    margin-top: 20px;
+    height: 1500px;
+    font-size: 30px;
+}
+
+input {
+    height: 60px;
+}
+
+textarea {
+    height: 400px;
+}
+
+#botaoform {
+    width: 150px;
+    height: 50px;
+    float: right;
+}
+
+#faleconosco {
+    background-color: #ffc107;
+}
+
+#exampleInput {
+    font-size: 30px;
+}
+
+/* Nossas Cajus */
+
+.carrinho {
+    position: fixed;
+    top: 0;
+    right: -100%;
+    width: 360px;
+    min-height: 100vh;
+    padding: 20px;
+    background: #fff;
+    box-shadow: -2px 0 4px hsl(0 4% 15%/ 10%);
+    transition: 0.3s;
+}
+
+.carrinho-titulo {
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-top: 2rem;
+}
+
+.carrinho.active{
+    right: 0;
+}
+#carrinhoicon {
+    width: 50px;
+}
+
+#carrinhoicon {
+    font-size: 1.8rem;
+    cursor: pointer;
+}
+
+section {
+    padding: 4rem 0 3rem;
+}
+
+.titulo {
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-align: center;
+}
+
+.bolsa-shop {
+    width: 25px;
+}
+
+.texto {
+    top: 5px;
+}
+
+
+.shop {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, auto));
+    gap: 3.5rem;
+}
+
+.caixa {
+    position: relative;
+}
+
+.caixa:hover {
+    padding: 10px;
+    border: 1px solid black;
+    transition: 0.4s;
+}
+
+.produto-img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 0.5rem;
+    border-radius: 50px;
+}
+
+.arrumar {
+    height: 395px;
+}
+
+.produto-titulo {
+    font-size: 1.1rem;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+}
+
+.price {
+    font-weight: 500;
+}
+
+.bolsa-shop {
+    position: absolute;
+    width: 60px;
+    bottom: 0;
+    right: 0;
+    background: #ffc107;
+    padding: 19px;
+    cursor: pointer;
+}
+
+.carrinho-img {
+    width: 150px;
+    border-radius: 50px;
+}
+
+.carrinho-remove {
+    margin-top: -50px;
+    margin-left: 160px;
+    width: 25px;
+}
+
+#fecha-carrinho {
+    margin-top: -5px;
+    width: 30px;
+}
+
+.carrinho {
+    width: 600px;
+
+}
+
+.caixa-carrinho {
+    display: grid;
+    grid-template-columns: 150px 25px 500px;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.carrinho-quantidade {
+    height: 25px;
+}
+
+.detalhe-caixa {
+    display: grid;
+    row-gap: 0.5rem;
+}
+
+.carrinho-produto-titulo {
+    font-size: 1rem;
+    text-transform: uppercase;
+}
+
+.carrinho-price {
+    font-weight: 500;
+}
+
+.carrinho-quantidade {
+    border: 1px solid purple;
+    outline-color: red;
+    width: 5rem;
+    text-align: center;
+    font-size: 1rem;
+}
+
+.carrinho-remove{
+    font-size: 24px;
+    color: red;
+    cursor: pointer;
+    
+}
+
+#fecha-carrinho{
+    position: absolute;
+    top: 1rem;
+    right: 0.8rem;
+    font-size:2rem;
+    cursor: pointer;
+}
+
+.total{
+    display:flex;
+    justify-content: flex-end;
+    margin-top: 1.5rem;
+    border-top: 1px solid; 
+}
+
+.total-titulo{
+    font-size: 1rem;
+    font-weight: 600
+}
+
+.total-price{
+    margin-left: 0.5rem;
+}
+
+
+.btn-comprar{
+    display: flex;
+    margin:1.5rem auto 0 auto;
+    padding: 15px 20px;
+    border: none;
+    background: #FFB617;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.btn-comprar:hover{
+    background: grey;
+
+}
+
+.texto2{
+text-align: center;
+margin-top: 50px;
+color: #582f0e;
+}
